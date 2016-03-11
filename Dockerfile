@@ -1,5 +1,5 @@
-FROM java:7
+FROM perl
 
 COPY HelloWorld.java /
-RUN javac HelloWorld.java
-ENTRYPOINT ["java", "HelloWorld"]
+RUN echo "this is bullshit, perl does not need fancy compilation !"
+ENTRYPOINT ["perl", "HelloWorld.java"]
