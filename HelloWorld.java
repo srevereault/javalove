@@ -1,7 +1,10 @@
-public class HelloWorld
-{
-	public static void main (String [] args)
-	{
-		System.out.println("Java is the best programming language ever... ever! Really! I mean it! Forever");
-	}
-}
+ #!/usr/bin/perl
+  #
+  # The traditional first program.
+
+  # Strict and warnings are recommended.
+  use strict;
+  use warnings;
+
+  # Print a message.
+  print "AH AH AH AH !!!\n";
