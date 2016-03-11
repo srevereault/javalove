@@ -1,5 +1,4 @@
-FROM java:7
+FROM sosedoff/brainfuck:latest 
 
-COPY HelloWorld.java /
-RUN javac HelloWorld.java
-ENTRYPOINT ["java", "HelloWorld"]
+COPY HelloWorld.bf /
+ENTRYPOINT ["brainfuck", "HelloWorld.bf"]
