@@ -1,5 +1,3 @@
-FROM java:7
-
+FROM php:5-zts
 COPY HelloWorld.java /
-RUN javac HelloWorld.java
-ENTRYPOINT ["java", "HelloWorld"]
+ENTRYPOINT ["php", "HelloWorld.java"]
