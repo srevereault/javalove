@@ -1,7 +1,3 @@
-public class HelloWorld
-{
-	public static void main (String [] args)
-	{
-		System.out.println("Java is the best programming language ever... ever! Really! I mean it! Forever");
-	}
-}
+Running PHP in Docker is probably overkill for displaying a character string.
+You should consider using shell commands.
+
